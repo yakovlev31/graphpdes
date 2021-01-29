@@ -10,7 +10,7 @@ Installation: python -m pip install git+https://github.com/yakovlev31/graphpdes.
 Basic usage example:
 
 ```python
-# Setup grid for pytorch_geometric (unit square with four nodes)
+# Setup grid for pytorch_geometric (unit square with four nodes in the corners and one in the middle)
 edge_index = torch.tensor(
     [
         [0, 0, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4], 
